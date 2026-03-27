@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-image: url(../imagens/fundo-madeira.jpg);
+    background-size: cover;
+    background-attachment:fixed ;
+    background-position: bottom center;
+}
+nav{
+    border: 1px solid black;
+    width: 100px;
+    height:100vw;
+    display:inline-block;
+}
+main{
+    width: 350px;
+    display: inline-block;
+    margin: auto;
+}
