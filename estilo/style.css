@@ -2,20 +2,28 @@
     margin: 0px;
 }
 
-body{
+html,body{
     background-image: url(../imagens/fundo-madeira.jpg);
     background-size: cover;
     background-attachment:fixed ;
     background-position: bottom center;
-}
-nav{
-    border: 1px solid black;
-    width: 100px;
-    height:100vw;
-    display:inline-block;
+    height: 100vh;
 }
 main{
+    height: 100vh;
+    position: relative;
+}
+#telefone{
+    height: 622px;
     width: 350px;
-    display: inline-block;
-    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#redes{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
